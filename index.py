@@ -2,11 +2,11 @@
 #Create two variables. One should equal “My name is: “ 
 # and the other should equal your actual name. 
 # Print the two variables in one print mess
-# name = ('My name is: ')
-# 
-# first = ('Dekevion')
-# 
-# sentence = print(name + first)
+name = ('My name is: ')
+
+first = ('Dekevion')
+
+sentence = print(name + first)
 
 
 # exercise 2 
@@ -14,23 +14,23 @@
 # If they entered less than 5 print “That’s not enough extra credit.” 
 # If they entered more than 20 print “That’s too much extra credit”.
 # 
-# askForCredit = int(input("Enter the extra credit earned"))
-# 
-# if askForCredit < 5:
-#     print('not enough extra credit')
-# elif askForCredit > 20:
-#     print ('too much extra credit')
+askForCredit = int(input("Enter the extra credit earned"))
+
+if askForCredit < 5:
+    print('not enough extra credit')
+elif askForCredit > 20:
+    print ('too much extra credit')
 #     
 # exercise 3
 #Ask a user to enter a password. Enter a password. 
 # Ask user to reenter password. Check to see if they are correct.
 
-# askForPassword = input('enter password')
-# 
-# reenter = input('reenter password')
-# 
-# if askForPassword is reenter:
-#     print('correct')
+askForPassword = input('enter password')
+
+reenter = input('reenter password')
+
+if askForPassword is reenter:
+    print('correct')
 
 #exercise 4
 #Ask for two card numbers. If it equals 21 print BLACKJACK!, 
